@@ -49,7 +49,7 @@ education:
 # certificates:
 # publications:
 skills:
-  - name: "C#"
+  - name: C-Sharp
     level: Advanced
   - name: C++
     level: Intermediate
@@ -82,7 +82,7 @@ projects:
   - name: bingo-dungeon
     description: Unity Game done during GMTK 2022
     # highlights:
-    keywords: [ "C#", Unity, Random, gamejam ]
+    keywords: [ C-Sharp, Unity, Random, gamejam ]
     url: https://benchi99.itch.io/bingo-dungeon
     roles: [ Developer, Designer ]
     entity: Itchio
@@ -90,14 +90,14 @@ projects:
 
   - name: get high
     description: Unity Game done during ComJamOn 2022
-    keywords: [ "C#", Unity, gamejam ]
+    keywords: [ C-Sharp, Unity, gamejam ]
     url: https://rioni.itch.io/get-high
     roles: [ Lead developer ]
     type: Videogame
 
   - name: tilemap-to-mesh
     description: Unity script utility to turn 2D tilemap into 3D flat mesh
-    keywords: [ "C#", Unity, graphics ]
+    keywords: [ C-Sharp, Unity, graphics ]
     url: https://github.com/Nrosa01/TilemapToMesh-Unity
     roles: [ Lead developer ]
     type: Videogame
