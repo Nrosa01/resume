@@ -13,6 +13,7 @@ from pydantic.generics import GenericModel
 from .jsonresume import EducationItem, Certificate
 from .jsonresume import Project as ProjectItem
 from .jsonresume import ResumeSchema, WorkItem
+from .jsonresume import Language
 from ..util import extract
 from ..util.other import from_award, from_publication
 
@@ -241,6 +242,16 @@ class SkillSection(GenericSection[str]):
             cols=glom(jsonresume, "meta.latex.skills.cols", default=6),
         )
 
+class LanguageSection(GenericSection[Language]):
+    """The language section displays the same information as the `languages` field of a JSON resume"""
+
+    @classmethod
+    def from_jsonresume(cls, jsonresume: ResumeSchema) -> Optional[LanguageSection]:
+        if not jsonresume.languages:
+            return None
+
+        languages = [l.language + ": " + l.fluency for l in jsonresume.languages]
+        return LanguageSection(title="Languages", list=languages)
 
 class SummarySection(BaseModel):
     """The summary section displays the contents `basics.summary` of a JSON resume"""
@@ -297,6 +308,7 @@ class TemplateScheme(BaseModel):
     column: ColumnSection
     summary: SummarySection
     skills: Optional[SkillSection]
+    languages: Optional[LanguageSection]
     experience: Optional[ExperienceSection]
     education: Optional[EducationSection]
     formation: Optional[QualificationSection]
@@ -326,6 +338,7 @@ class TemplateScheme(BaseModel):
             column=ColumnSection.from_jsonresume(jsonresume),
             summary=SummarySection.from_jsonresume(jsonresume),
             skills=SkillSection.from_jsonresume(jsonresume),
+            languages=LanguageSection.from_jsonresume(jsonresume),
             experience=ExperienceSection.from_jsonresume(jsonresume),
             education=EducationSection.from_jsonresume(jsonresume),
             formation=QualificationSection.from_jsonresume(jsonresume),
