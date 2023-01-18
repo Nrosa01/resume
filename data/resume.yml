@@ -1,17 +1,17 @@
 meta:
-  title: Nicolás Rosa Caballero Resume
+  title: Nicolas Rosa Caballero Resume
   canonical: http://json-schema.org/draft-04/schema#
   version: v1.0.0
-  lastModified: 2023-01-19T11:27:45+0000
+  lastModified: 2023-01-17T11:27:45+0000
   latex:
     mainfont: Arial
     urlcolor: blue
     ruler: true
     skills:
       cols: 8
-  keywords: [ Nicolás Rosa Caballero, Resume, Curriculum Vitae, Game Developer, Complutense University of Madrid, ]
+  keywords: [ Nicolas Rosa Caballero, Resume, Curriculum Vitae, Game Developer, Complutense University of Madrid, ]
 basics:
-  name: Nicolás Rosa Caballero
+  name: Nicolas Rosa Caballero
   label: Game Developer
   image: https://avatars.githubusercontent.com/u/62796415?v=4
   email: nicovideo13@gmail.com
@@ -33,7 +33,7 @@ basics:
       username: Rioni
       url: https://github.com/Nrosa01
     # - network: LinkedIn
-    #   username: Nicolás Rosa Caballero
+    #   username: Nicolas Rosa Caballero
     #   url: https://www.linkedin.com/in/nicolas-rosa-caballero-96b396141/
 # work:
 # volunteer:
@@ -49,7 +49,7 @@ education:
 # certificates:
 # publications:
 skills:
-  - name: C#
+  - name: C-Sharp
     level: Advanced
   - name: C++
     level: Intermediate
@@ -62,13 +62,13 @@ skills:
     keywords: [ GitHub, ]
   - name: Unix
     level: Intermediate
-    keywords: [ Linux, BSD, macOS ]
+    keywords: [ Linux, ]
   - name: UML 2.5
     level: Intermediate
     keywords: [ OOP, ]
   - name: Svelte
     level: Intermediate
-    keywords: [ Web, framework ]
+    keywords: [ Web, framework, ]
   - name: Tailwind
     level: Intermediate
     keywords: [ CSS, ]
@@ -82,7 +82,7 @@ projects:
   - name: bingo-dungeon
     description: Unity Game done during GMTK 2022
     # highlights:
-    keywords: [ C#, Unity, Random, gamejam ]
+    keywords: [ C-Sharp, Unity, Random, gamejam ]
     url: https://benchi99.itch.io/bingo-dungeon
     roles: [ Developer, Designer ]
     entity: Itchio
@@ -90,14 +90,14 @@ projects:
 
   - name: get high
     description: Unity Game done during ComJamOn 2022
-    keywords: [ C#, Unity, gamejam ]
+    keywords: [ C-Sharp, Unity, gamejam ]
     url: https://rioni.itch.io/get-high
     roles: [ Lead developer ]
     type: Videogame
 
   - name: tilemap-to-mesh
     description: Unity script utility to turn 2D tilemap into 3D flat mesh
-    keywords: [ C#, Unity, graphics ]
+    keywords: [ C-Sharp, Unity, graphics ]
     url: https://github.com/Nrosa01/TilemapToMesh-Unity
     roles: [ Lead developer ]
     type: Videogame
