@@ -16,12 +16,11 @@ basics:
   image: https://avatars.githubusercontent.com/u/62796415?v=4
   email: nicovideo13@gmail.com
   phone: '+34650606725'
-  url: 'https://github.com/Nrosa01'
+  # url: 'https://github.com/Nrosa01'
   summary: >
     Game Developer student with experience leading and working with small teams.
     Passionated about games and aiming to build great ones. Focused on gameplay
     programming and procedural levels.
-    advocate.
   location:
     # address:
     postalCode: '28036'
