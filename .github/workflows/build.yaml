@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v3
         with:
-          name: "Altair Bueno.zip"
+          name: "Nicolas Rosa.zip"
       - name: Upload resume to `latest`
         uses: svenstaro/upload-release-action@v2
         with:
@@ -37,7 +37,7 @@ jobs:
           cache: "pip"
       - uses: actions/download-artifact@v3
         with:
-          name: "Altair Bueno.zip"
+          name: "Nicolas Rosa.zip"
           path: out/
       - name: Install
         run: make deps/python
@@ -77,5 +77,5 @@ jobs:
       - name: Upload resume
         uses: actions/upload-artifact@v2
         with:
-          name: "Altair Bueno.zip"
+          name: "Nicolas Rosa.zip"
           path: out/resume.pdf

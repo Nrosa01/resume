@@ -8,7 +8,7 @@ meta:
     urlcolor: blue
     ruler: true
     skills:
-      cols: 8
+      cols: 7
   keywords: [ Nicolas Rosa Caballero, Resume, Curriculum Vitae, Game Developer, Complutense University of Madrid, ]
 basics:
   name: Nicolas Rosa Caballero
@@ -49,13 +49,13 @@ education:
 # certificates:
 # publications:
 skills:
-  - name: C-Sharp
+  - name: C#
     level: Advanced
   - name: C++
     level: Intermediate
   - name: Python
     level: Begginer
-  - name: JavaScript
+  - name: JS
     level: Begginer
   - name: Git
     level: Intermediate
@@ -82,7 +82,7 @@ projects:
   - name: bingo-dungeon
     description: Unity Game done during GMTK 2022
     # highlights:
-    keywords: [ C-Sharp, Unity, Random, gamejam ]
+    keywords: [ C#, Unity, Random, gamejam ]
     url: https://benchi99.itch.io/bingo-dungeon
     roles: [ Developer, Designer ]
     entity: Itchio
@@ -90,14 +90,14 @@ projects:
 
   - name: get high
     description: Unity Game done during ComJamOn 2022
-    keywords: [ C-Sharp, Unity, gamejam ]
+    keywords: [ C#, Unity, gamejam ]
     url: https://rioni.itch.io/get-high
     roles: [ Lead developer ]
     type: Videogame
 
   - name: tilemap-to-mesh
     description: Unity script utility to turn 2D tilemap into 3D flat mesh
-    keywords: [ C-Sharp, Unity, graphics ]
+    keywords: [ C#, Unity, graphics ]
     url: https://github.com/Nrosa01/TilemapToMesh-Unity
     roles: [ Lead developer ]
     type: Videogame
