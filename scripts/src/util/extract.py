@@ -97,6 +97,8 @@ def keywords(data: ResumeSchema) -> List[str]:
     - `education._.area`
     - `skills._.name`
     - `skills._.keywords`
+    - `languages._.language`
+    - `languages._.fluency`
     - `projects._.keywords`
     """
     meta = glom(data, "meta.keywords", default=[])
