@@ -242,7 +242,7 @@ class SkillSection(GenericSection[str]):
             cols=glom(jsonresume, "meta.latex.skills.cols", default=6),
         )
 
-class LanguageSection(GenericSection[Language]):
+class LanguageSection(GenericSection[str]):
     """The language section displays the same information as the `languages` field of a JSON resume"""
 
     @classmethod
