@@ -1,6 +1,6 @@
 # Resume
 
-Altair's resume
+Rioni's resume
 
 ![Thumbnail](.github/resources/thumbnail.png)
 
@@ -38,4 +38,4 @@ make clean
 
 All software is licensed under the MIT license ([license](LICENSE)), except for
 the [LaTeX template](templates/README.md#license). All the data belongs to
-Altair Bueno
+Nicolás Rosa
