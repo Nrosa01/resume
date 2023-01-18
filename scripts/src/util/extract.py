@@ -116,7 +116,7 @@ def keywords(data: ResumeSchema) -> List[str]:
     skills = chain.from_iterable(skills)
 
     languages = data.languages or []
-    languages = map(lambda x: (x.language, x.fluency), languages)
+    languages = map(lambda x: x.language + ": " + x.fluency, languages)
     languages = chain.from_iterable(languages)
 
     projects = data.projects or []
